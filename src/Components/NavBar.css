@@ -1,0 +1,58 @@
+/* NavBar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: dodgerblue;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.navbar-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.navbar-left {
+  flex: 1;
+}
+
+.navbar-center {
+  flex: 2;
+  text-align: center;
+}
+
+.navbar-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-left ul,
+.navbar-right ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-left li,
+.navbar-right li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+.navbar-welcome {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.navbar-icon {
+  cursor: pointer;
+}
+.client{
+  font-weight: 500;
+  color: black;
+  font-size: 25px;
+}

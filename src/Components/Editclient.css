@@ -1,0 +1,94 @@
+/* EditClient.css */
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+    background-color: dodgerblue;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .navbar-container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-right ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-right li {
+    margin-left: 1rem;
+  }
+  
+  .navbar-icon {
+    cursor: pointer;
+  }
+  
+  .client{
+    font-weight: 500;
+    color: black;
+    font-size: 25px;
+  }
+  
+  .client:hover {
+    text-decoration: underline;
+  }
+  
+  /* Form styles */
+  form {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    background-color: #ffffff;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker shade of primary color */
+  }
+  
